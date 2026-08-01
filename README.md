@@ -1,91 +1,116 @@
-Personal Portfolio Website
+# 🌐 Personal Portfolio Website
 
-Overview
-
-This is my personal portfolio website developed for the Software Development 1 course using HTML5 and CSS3. The portfolio presents my profile, skills, education, projects, achievements, publications, and contact information through a clean, modern, and responsive design.
-
-Features
-
-- Responsive layout for desktop and mobile devices
-- Modern and clean user interface
-- Smooth scrolling navigation
-- Active navigation highlighting
-- About Me section
-- Skills section
-- Education section
-- Projects section
-- Publications section
-- Achievements section
-- Contact section
-- Social media links
-- Contact form
-- Download CV button
-
-Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript (for navigation interaction)
-
-Project Structure
-
-Rahim-Portfolio/
-│── index.html
-│── style.css
-│── assets/
-│── images/
-└── README.md
-
-How to Use
-
-1. Open the website in any modern web browser.
-2. Use the navigation menu to explore different sections.
-3. View my education, skills, and projects.
-4. Download my CV.
-5. Use the contact form to send a message.
-
-Installation Guide
-
-Step 1: Clone the Repository
-
-git clone https://github.com/Rahim1068/Rahim-Portfolio.git
-
-Step 2: Navigate to the Project Folder
-
-cd Rahim-Portfolio
-
-Step 3: Open the Project
-
-Open the folder in Visual Studio Code or any code editor.
-
-Step 4: Run the Website
-
-Open index.html directly in your browser, or install the Live Server extension in Visual Studio Code and click Go Live.
-
-Live Demo
-
-GitHub Pages:
-
-https://rahim1068.github.io/Rahim-Portfolio/
-
-GitHub Repository
-
-https://github.com/Rahim1068/Rahim-Portfolio
-
-Figma Prototype
-
-https://www.figma.com/design/1mBfyySIA90xOozOmlxQME/Untitled?node-id=0-1&p=f&t=BFIxy7cFcjxOhsjC-0
-
-Author
-
-Md. Rahim Sarker
-
-Computer Science & Engineering (CSE)
-
-International Islamic University Chittagong (IIUC)
-
-GitHub: https://github.com/Rahim1068
+A modern and responsive personal portfolio website built using **HTML, CSS, and JavaScript**. This project showcases my profile, technical skills, education, projects, achievements, publications, and contact information.
 
 ---
 
-© 2026 Md. Rahim Sarker. All rights reserved.
+## 📖 Project Overview
+
+This portfolio website was developed as part of my **Software Development** course. It serves as a digital portfolio where visitors can learn about me, explore my projects, and contact me.
+
+---
+
+## ✨ Features
+
+- Responsive and modern portfolio design
+- Home, About, Skills, Projects, Education, Achievements, Publications, and Contact sections
+- Smooth scrolling navigation
+- Download CV option
+- Social media links
+- Responsive layout
+- Clean and user-friendly interface
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Font Awesome
+- Google Fonts
+
+---
+
+## 📂 Project Structure
+
+```
+Rahim-Portfolio/
+│
+├── index.html
+├── style.css
+├── rahim.jpg
+├── README.md
+└── Image/
+    └── Md_Rahim_Sarker_CV.pdf
+```
+
+---
+
+## 🚀 Live Demo
+
+**Portfolio Website:**  
+https://rahim1068.github.io/Rahim-Portfolio/
+
+---
+
+## 💻 Installation Guide
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Rahim1068/Rahim-Portfolio.git
+```
+
+### 2. Open the project folder
+
+```bash
+cd Rahim-Portfolio
+```
+
+### 3. Open the project in Visual Studio Code
+
+```bash
+code .
+```
+
+### 4. Run the project
+
+Open **index.html** in your browser.
+
+Or, install the **Live Server** extension in VS Code and click **Go Live**.
+
+---
+
+## 📖 How to Use
+
+1. Open the portfolio website.
+2. Navigate through the sidebar menu.
+3. Explore the About, Skills, Projects, Education, Achievements, and Publications sections.
+4. Download the CV.
+5. Contact me using the contact information provided.
+
+---
+
+## 🎨 Figma Prototype
+
+https://www.figma.com/design/1mBfyySIA90xOozOmlxQME/Untitled?node-id=0-1&p=f&t=BFIxy7cFcjxOhsjC-0
+
+---
+
+## 👨‍💻 Author
+
+**Md. Rahim Sarker**
+
+- Computer Science & Engineering Student
+- International Islamic University Chittagong (IIUC)
+
+**GitHub:** https://github.com/Rahim1068
+
+**Portfolio:** https://rahim1068.github.io/Rahim-Portfolio/
+
+---
+
+## 📄 License
+
+This project was developed for educational purposes.
