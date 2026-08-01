@@ -18,7 +18,7 @@ A modern and responsive personal portfolio website built using HTML, CSS, and Ja
 
 ## 🎨 Figma Design
 
-🔗 [Figma Link]
+🔗 [[Figma Link](https://www.figma.com/design/9tPb4H4DYkTEwLuvOD7p85/Untitled?node-id=0-1&p=f&t=1RjTXsdigHZwT9QQ-0)]
 
 ---
 
@@ -82,9 +82,6 @@ Simply open index.html in your browser.
 ## 👨‍💻 Author
 
 Md. Rahim Sarker
-
-GitHub: [Your GitHub Profile]
-
 ---
 
 ## 📄 License
