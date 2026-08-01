@@ -30,25 +30,36 @@
   <!-- HERO / HOME -->
   <section id="home" class="section hero">
     <div class="logo">Rahim Sarker</div>
-    <div class="hero-content">
-      <p class="eyebrow-plain">HELLO, IT'S ME</p>
-      <h1 class="hero-title">Md. <span class="accent">Rahim</span> Sarker</h1>
-      <p class="hero-role">CSE Student <span class="dot">|</span> Java Developer <span class="dot">|</span> Problem Solver</p>
-      <p class="hero-desc">I am a Computer Science &amp; Engineering student at International Islamic University Chittagong (IIUC). I love coding, building projects, and solving real-world problems.</p>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <p class="eyebrow-plain">HELLO, IT'S ME</p>
+        <h1 class="hero-title">Md. <span class="accent">Rahim</span> Sarker</h1>
+        <p class="hero-role">CSE Student <span class="dot">|</span> Java Developer <span class="dot">|</span> Problem Solver</p>
+        <p class="hero-desc">I am a Computer Science &amp; Engineering student at International Islamic University Chittagong (IIUC). I love coding, building projects, and solving real-world problems.</p>
 
-      <div class="hero-buttons">
-        <a href="#" class="btn btn-primary"><i class="fa-solid fa-download"></i> Download CV</a>
-        <a href="#projects" class="btn btn-outline">View Projects <i class="fa-solid fa-arrow-right"></i></a>
-      </div>
+        <div class="hero-buttons">
+          <a href="Image/Md_Rahim_Sarker_CV.pdf" download class="btn btn-primary">
+            <i class="fa-solid fa-download"></i> Download CV
+          <a href="#projects" class="btn btn-outline">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
 
-      <div class="follow-me">
+          <div class="follow-me">
         <span>FOLLOW ME</span>
         <div class="social-icons">
           <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="#" aria-label="Hashnode"><i class="fa-brands fa-hashnode"></i></a>
-          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-          <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://github.com/Rahim1068" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.facebook.com/md.rahim.sarker.521509" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rahim101403@gmail.com" target="_blank">
+    <i class="fa-solid fa-envelope"></i>
+</a>
+          <a href="https://wa.me/8801887688113" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      </div>
+
+      <div class="hero-photo">
+        <div class="hero-photo-frame">
+          <img src="rahim.jpg" alt="Md. Rahim Sarker" onerror="this.style.display='none'; this.parentElement.classList.add('no-photo');">
         </div>
       </div>
     </div>
@@ -459,63 +470,27 @@
         </div>
       </div>
 
-      <form class="contact-form" action="https://formsubmit.co/rahim101403@gmail.com" method="POST">
-
-    <!-- FormSubmit Settings -->
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_template" value="table">
-    <input type="hidden" name="_subject" value="New Portfolio Contact Form Submission">
-
-    <div class="form-row">
-        <div class="form-group">
+      <form class="contact-form" onsubmit="return false;">
+        <div class="form-row">
+          <div class="form-group">
             <label for="fullname">Full Name</label>
-            <input
-                type="text"
-                id="fullname"
-                name="name"
-                placeholder="Enter Your Full Name"
-                required
-            >
-        </div>
-
-        <div class="form-group">
+            <input type="text" id="fullname" placeholder="Enter Your Full Name">
+          </div>
+          <div class="form-group">
             <label for="email">Email Address</label>
-            <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Enter Your Email"
-                required
-            >
+            <input type="email" id="email" placeholder="Enter Your Email">
+          </div>
         </div>
-    </div>
-
-    <div class="form-group">
-        <label for="subject">Subject</label>
-        <input
-            type="text"
-            id="subject"
-            name="subject"
-            placeholder="Enter Subject"
-            required
-        >
-    </div>
-
-    <div class="form-group">
-        <label for="message">Message</label>
-        <textarea
-            id="message"
-            name="message"
-            placeholder="Tell me about your project or idea..."
-            required
-        ></textarea>
-    </div>
-
-    <button type="submit" class="btn btn-primary btn-send">
-        <i class="fa-solid fa-paper-plane"></i> Send Message
-    </button>
-
-</form>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" placeholder="Enter Subject">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Tell me about your project or idea..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-send"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+      </form>
 
     </div>
   </section>
@@ -529,11 +504,6 @@
 </main>
 
 <script>
-
- 
-
-
-
 (function () {
   const navItems = Array.from(document.querySelectorAll('#sidenav li'));
   const sections = navItems
